@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Amatic SC", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(136.16deg, rgba(91, 135, 75, 0.76) 12.9%, #0c3720 87.72%);
+}
+
+.banner-nav {
+  padding: 3rem 13.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 10rem;
+}
+
+.login-btn a {
+  text-decoration: none;
+  width: 13rem;
+  height: 4.2rem;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 1.4rem;
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+.left-side-content h1 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-right: 250px;
+}
+
+.left-side-content p {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.left-side-content button {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4196078431);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+.left-side-content button a {
+  font-family: "Amatic SC", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.left-side-content button span {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.left-side-content button span img {
+  width: 2rem;
+  object-fit: cover;
+}
+
+.left-side-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 130px;
+}
+
+.banner-center-content {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+.right-side-content {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.scroll-down-container {
+  display: flex;
+  justify-content: center;
+}
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scroll-down span {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.scroll-down img {
+  width: 2rem;
+  object-fit: cover;
+}/*# sourceMappingURL=halloween-modern.css.map */
